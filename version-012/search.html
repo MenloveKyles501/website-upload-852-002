@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>高分电影榜 - 搜索</title>
+  <meta name="description" content="搜索影片、年份、地区、类型、标签，并即时查看匹配结果。">
+  <meta name="keywords" content="搜索,高分国产电影,国产电影,高分电影,电影榜单,高清影片,精选电影">
+  <meta name="theme-color" content="#050814">
+  <meta property="og:title" content="高分电影榜 - 搜索">
+  <meta property="og:description" content="搜索影片、年份、地区、类型、标签，并即时查看匹配结果。">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/movies-index.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body class="">
+  <div class="page-shell">
+    
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="brand" href="index.html" aria-label="高分电影榜">
+      <div class="brand-mark">高</div>
+      <div class="brand-text">
+        <div class="brand-title">高分电影榜</div>
+        <div class="brand-subtitle">国产高分片单 · 2000 部静态索引</div>
+      </div>
+    </a>
+
+    <nav class="site-nav" aria-label="主导航">
+      <a data-nav-link href="index.html">首页</a><a data-nav-link href="categories.html">分类总览</a><a data-nav-link href="ranking.html">排行榜</a><a data-nav-link href="search.html" class="active">搜索</a><a data-nav-link href="sitemap.html">站点地图</a>
+    </nav>
+
+    <div class="header-tools">
+      
+    <form class="search-mini" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、年份、地区、类型..." aria-label="搜索影片">
+      <span class="icon">⌕</span>
+    </form>
+    
+      <button class="mobile-toggle" type="button" aria-label="打开菜单" aria-expanded="false" data-mobile-toggle>☰</button>
+    </div>
+  </div>
+
+  <div class="container mobile-nav" data-mobile-nav>
+    <div class="mobile-nav-inner">
+      <a data-nav-link href="index.html">首页</a><a data-nav-link href="categories.html">分类总览</a><a data-nav-link href="ranking.html">排行榜</a><a data-nav-link href="search.html" class="active">搜索</a><a data-nav-link href="sitemap.html">站点地图</a>
+    </div>
+  </div>
+</header>
+
+    <main>
+      
+<section class="search-page">
+  <div class="container">
+    <div class="hero-card" style="padding: 24px;">
+      <div class="section-head" style="margin-bottom: 0;">
+        <div>
+          <h1 class="section-title" style="font-size: 34px;">搜索影片</h1>
+          <p class="section-desc">输入关键词即可从 2000 条影片中筛选结果。支持标题、标签、年份、地区和类型。</p>
+        </div>
+      </div>
+      <form class="toolbar" style="margin-top: 18px;">
+        <input data-search-input type="search" placeholder="请输入关键词，例如：悬疑 / 2025 / 韩国 / 真实事件">
+        <a class="btn btn-primary" href="search.html">清空并重置</a>
+      </form>
+    </div>
+    <div class="section" style="padding-top: 18px;">
+      <div class="search-results" data-search-results data-source="assets/movies-index.json"></div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-card">
+      <div>
+        <strong>高分电影榜</strong>
+        <div class="inline-note">静态化电影网站 · 首页、分类页、排行榜、详情页、站点地图一应俱全。</div>
+      </div>
+      <div class="inline-note">共收录 2000 部影片 · 所有详情页均已单独生成。</div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script type="module" src="assets/site.js"></script>
+</body>
+</html>

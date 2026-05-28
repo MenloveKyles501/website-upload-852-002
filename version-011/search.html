@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 · 影库</title>
+  <meta name="description" content="搜索 2000部纯静态影片档案">
+  <meta name="keywords" content="影库, 纯静态电影网站, 电影, 影片, HLS播放器">
+  <meta name="theme-color" content="#060b17">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="assets/original.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="assets/app.js"></script>
+  <script defer src="assets/movies-index.js"></script>
+  
+</head>
+<body>
+  <div class="site-shell">
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="影库 首页">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>影库</strong>
+            <span>2000部纯静态影片档案</span>
+          </span>
+        </a>
+        <button class="mobile-toggle" data-nav-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a class="nav-link" href="index.html">首页</a>
+<a class="nav-link" href="all/page-1.html">全部影片</a>
+<a class="nav-link" href="ranking.html">排行榜</a>
+<a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+      </div>
+    </header>
+    
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <div>
+            <h1 class="section-title">搜索影片</h1>
+            <p class="section-subtitle">输入标题、地区、题材或标签，即可即时筛选 2000 部影片。</p>
+          </div>
+          <div class="search-row">
+            <label class="search-box" aria-label="搜索影片">
+              <span>⌕</span>
+              <input data-search-input type="search" placeholder="例如：悬疑、韩国、2025、爱情">
+            </label>
+            <a class="btn btn-primary" href="all/page-1.html">浏览全部</a>
+          </div>
+          <div class="search-results-meta">
+            <span>匹配结果：<strong data-search-count>0</strong></span>
+            <span>支持标题、地区、年份、题材和标签搜索</span>
+          </div>
+        </div>
+        <div class="movie-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© 影库 · 2000部纯静态影片档案</div>
+        <div>静态生成 · SEO友好 · 可浏览 · 可播放</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

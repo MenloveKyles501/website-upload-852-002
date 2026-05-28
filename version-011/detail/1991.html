@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>许愿人 · 影库</title>
+  <meta name="description" content="一个暗网论坛流传着“许愿人”的传说,只要你付出等价的痛苦,就能实现任何愿望。">
+  <meta name="keywords" content="影库, 纯静态电影网站, 电影, 影片, HLS播放器">
+  <meta name="theme-color" content="#060b17">
+  <link rel="icon" href="../favicon.svg">
+  <link rel="stylesheet" href="../assets/original.css">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../assets/app.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "许愿人", "description": "一个暗网论坛流传着“许愿人”的传说,只要你付出等价的痛苦,就能实现任何愿望。", "datePublished": "2024", "genre": ["恐怖", "悬疑"], "countryOfOrigin": "美国", "image": "41.jpg"}</script>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="影库 首页">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>影库</strong>
+            <span>2000部纯静态影片档案</span>
+          </span>
+        </a>
+        <button class="mobile-toggle" data-nav-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a class="nav-link" href="../index.html">首页</a>
+<a class="nav-link active" href="../all/page-1.html">全部影片</a>
+<a class="nav-link" href="../ranking.html">排行榜</a>
+<a class="nav-link" href="../search.html">搜索</a>
+        </nav>
+      </div>
+    </header>
+    
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="../index.html">首页</a>
+          <span>›</span>
+          <a href="../all/page-1.html">全部影片</a>
+          <span>›</span>
+          <span>许愿人</span>
+        </div>
+
+        <div class="detail-hero">
+          <div class="detail-poster">
+            <img src="../41.jpg" alt="许愿人">
+          </div>
+
+          <div class="detail-main">
+            <div class="detail-card">
+              <h1 class="detail-title">许愿人</h1>
+              <p class="detail-subtitle">一个暗网论坛流传着“许愿人”的传说,只要你付出等价的痛苦,就能实现任何愿望。</p>
+              <div class="detail-meta">
+                <span class="tag">美国</span>
+                <span class="tag">电影</span>
+                <span class="tag">2024</span>
+                <span class="tag">恐怖/悬疑</span>
+                <span class="tag"># 1991</span>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#player">立即播放</a>
+                <a class="btn btn-secondary" href="../search.html?q=许愿人">搜索同类影片</a>
+                <a class="btn btn-secondary" href="../ranking.html">查看排行榜</a>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">剧情简介</h2>
+                <div class="rich-text" style="margin-top:14px"><p>落魄的程序员马特发现了暗网论坛“许愿人”。规则很简单:提交你的愿望,系统会生成一个“代价任务”(比如自残、偷窃或伤害他人)。完成即可许愿。起初只是小打小闹的马特许愿涨薪,代价是在公共场合羞辱自己。随着愿望变大,代价开始涉及他人。当他许愿让竞争对手消失时,代价是让他最好的朋友断一条腿。马特的愧疚感很快被贪婪吞噬。他许愿让前女友回心转意,代价却是让他母亲患上绝症。当马特意识到这个“许愿人”并非AI,而是一个能读取人类痛苦情绪的远古恶魔时,他试图注销账户,却发现“代价”已经锁定了他——他要许的最后一个愿望,必须是自己献祭灵魂。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">影片信息</h2>
+                <div class="info-list">
+                  <div class="info-row"><strong>地区</strong><span>美国</span></div>
+                  <div class="info-row"><strong>类型</strong><span>电影</span></div>
+                  <div class="info-row"><strong>年份</strong><span>2024</span></div>
+                  <div class="info-row"><strong>题材</strong><span>恐怖/悬疑</span></div>
+                  <div class="info-row"><strong>标签</strong><span>都市传说 / 代价 / 许愿规则 / 生存游戏</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <h2 class="section-title">观影播放</h2>
+              <p class="section-subtitle">内置 HLS 播放器，支持切换两条播放线路。</p>
+              <div class="player-shell" id="player">
+                <video
+                  class="player-video"
+                  data-player
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../41.jpg"
+                  data-streams='["https://customer-7t103rn8rocxo5v6.cloudflarestream.com/a27121d514ff0079e1e81a6678f14e0c/manifest/video.m3u8", "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/d0af4221b8947fda8c23f4955947cb58/manifest/video.m3u8"]'
+                ></video>
+                <div class="player-controls">
+                  <button class="control-btn" type="button" data-stream-btn="0">线路 1</button>
+                  <button class="control-btn" type="button" data-stream-btn="1">线路 2</button>
+                  <a class="control-btn" href="../search.html?q=许愿人">搜索更多推荐</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">影片评论</h2>
+                <div class="rich-text" style="margin-top:14px"><p>完美利用了当代人对大数据和暗网的恐惧。剧情层层递进,像温水煮青蛙。没有鬼怪出没的廉价惊吓,最大的恐怖来自于主角逐渐丧失道德底线时的冷漠。结局的开放式处理让人脊背发凉。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">标签</h2>
+                <div class="tags-cloud" style="margin-top:14px">
+                  <span class="meta-tag">都市传说</span><span class="meta-tag">代价</span><span class="meta-tag">许愿规则</span><span class="meta-tag">生存游戏</span>
+                  <span class="meta-tag">恐怖</span><span class="meta-tag">悬疑</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <div class="section-head" style="margin-bottom:12px">
+                <div>
+                  <h2 class="section-title">猜你喜欢</h2>
+                  <p class="section-subtitle">根据原始相关 ID 与同地区、同年份补充生成。</p>
+                </div>
+              </div>
+              <div class="movie-grid">
+                
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0061.html">
+        <div class="movie-poster">
+          <img src="../61.jpg" alt="紫玉金砂">
+          <div class="movie-badges">
+            <span class="movie-badge">2025</span>
+            <span class="movie-badge">#0061</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">紫玉金砂</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>电影</span>
+            <span>剧情 · 悬疑</span>
+          </div>
+          <p class="movie-desc">一把失踪百年的紫砂壶王重现江湖,引出一段尘封的民国血案与制壶世家的恩怨。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 268</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0142.html">
+        <div class="movie-poster">
+          <img src="../142.jpg" alt="雨魅巴别塔">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0142</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">雨魅巴别塔</h3>
+          <div class="movie-meta">
+            <span>日本/新加坡</span>
+            <span>电影</span>
+            <span>奇幻 · 悬疑</span>
+          </div>
+          <p class="movie-desc">一场千年暴雨困住一栋公寓楼,楼内不同语言的住户开始听见死去亲人用母语在雨中低语。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 629</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0229.html">
+        <div class="movie-poster">
+          <img src="../79.jpg" alt="心灵推手">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0229</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">心灵推手</h3>
+          <div class="movie-meta">
+            <span>中国台湾</span>
+            <span>电影</span>
+            <span>剧情</span>
+          </div>
+          <p class="movie-desc">一名自闭症数学天才在废弃车站与退役棋手相遇,用围棋解构彼此人生困局。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 317</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0307.html">
+        <div class="movie-poster">
+          <img src="../7.jpg" alt="暴风雨中的母亲">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0307</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">暴风雨中的母亲</h3>
+          <div class="movie-meta">
+            <span>韩国</span>
+            <span>电影</span>
+            <span>剧情 · 惊悚</span>
+          </div>
+          <p class="movie-desc">在一场因豆腐渣工程导致幼儿园坍塌后,一位单亲妈妈以一己之力对抗整个国家的司法系统。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 416</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0399.html">
+        <div class="movie-poster">
+          <img src="../99.jpg" alt="三轮车伕">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0399</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">三轮车伕</h3>
+          <div class="movie-meta">
+            <span>越南/法国</span>
+            <span>电影</span>
+            <span>剧情</span>
+          </div>
+          <p class="movie-desc">西贡街头,一个骑三轮车谋生的少年,在帮黑帮运送一具尸体后,发现车上还坐着那个死者的灵魂。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 560</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0465.html">
+        <div class="movie-poster">
+          <img src="../15.jpg" alt="盗宝奇葩之猎肉杀身">
+          <div class="movie-badges">
+            <span class="movie-badge">2021</span>
+            <span class="movie-badge">#0465</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">盗宝奇葩之猎肉杀身</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>网络电影</span>
+            <span>喜剧 · 动作</span>
+          </div>
+          <p class="movie-desc">三个笨贼盗了一座古墓,发现里面只有一冰箱冻肉和一张烧烤配方。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 95</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© 影库 · 2000部纯静态影片档案</div>
+        <div>静态生成 · SEO友好 · 可浏览 · 可播放</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

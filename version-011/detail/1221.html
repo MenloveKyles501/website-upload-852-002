@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>逃离今日计划 · 影库</title>
+  <meta name="description" content="一个永远在改方案的卑微策划,发现自己只要写下“今日计划”,就会陷入永无止境的加班地狱循环。">
+  <meta name="keywords" content="影库, 纯静态电影网站, 电影, 影片, HLS播放器">
+  <meta name="theme-color" content="#060b17">
+  <link rel="icon" href="../favicon.svg">
+  <link rel="stylesheet" href="../assets/original.css">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../assets/app.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "逃离今日计划", "description": "一个永远在改方案的卑微策划,发现自己只要写下“今日计划”,就会陷入永无止境的加班地狱循环。", "datePublished": "2023", "genre": ["喜剧", "剧情"], "countryOfOrigin": "中国大陆", "image": "21.jpg"}</script>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="影库 首页">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>影库</strong>
+            <span>2000部纯静态影片档案</span>
+          </span>
+        </a>
+        <button class="mobile-toggle" data-nav-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a class="nav-link" href="../index.html">首页</a>
+<a class="nav-link active" href="../all/page-1.html">全部影片</a>
+<a class="nav-link" href="../ranking.html">排行榜</a>
+<a class="nav-link" href="../search.html">搜索</a>
+        </nav>
+      </div>
+    </header>
+    
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="../index.html">首页</a>
+          <span>›</span>
+          <a href="../all/page-1.html">全部影片</a>
+          <span>›</span>
+          <span>逃离今日计划</span>
+        </div>
+
+        <div class="detail-hero">
+          <div class="detail-poster">
+            <img src="../21.jpg" alt="逃离今日计划">
+          </div>
+
+          <div class="detail-main">
+            <div class="detail-card">
+              <h1 class="detail-title">逃离今日计划</h1>
+              <p class="detail-subtitle">一个永远在改方案的卑微策划,发现自己只要写下“今日计划”,就会陷入永无止境的加班地狱循环。</p>
+              <div class="detail-meta">
+                <span class="tag">中国大陆</span>
+                <span class="tag">电影</span>
+                <span class="tag">2023</span>
+                <span class="tag">喜剧/剧情</span>
+                <span class="tag"># 1221</span>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#player">立即播放</a>
+                <a class="btn btn-secondary" href="../search.html?q=逃离今日计划">搜索同类影片</a>
+                <a class="btn btn-secondary" href="../ranking.html">查看排行榜</a>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">剧情简介</h2>
+                <div class="rich-text" style="margin-top:14px"><p>广告公司策划林白是典型的“社畜”。某天,她被迫在一份离谱的“今日计划”上签字后,发现自己被困在了“今天”。无论她如何努力完成计划上的任务,第二天醒来依然是同样的日期,同样的待办事项。更恐怖的是,如果她不完成或者试图划掉计划,就会遭遇各种厄运。被逼疯的林白开始尝试各种“逃离”方式:辞职、甚至物理逃离公司大楼,但世界边界就像墙一样把她弹回来。最终,她发现唯一逃出循环的方法不是“完成计划”,而是彻底“撕毁规则”。她召集全公司被压迫的同事,一起当众烧掉了所有“今日计划表”。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">影片信息</h2>
+                <div class="info-list">
+                  <div class="info-row"><strong>地区</strong><span>中国大陆</span></div>
+                  <div class="info-row"><strong>类型</strong><span>电影</span></div>
+                  <div class="info-row"><strong>年份</strong><span>2023</span></div>
+                  <div class="info-row"><strong>题材</strong><span>喜剧/剧情</span></div>
+                  <div class="info-row"><strong>标签</strong><span>打工人 / 反内卷 / 时间循环 / 荒诞</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <h2 class="section-title">观影播放</h2>
+              <p class="section-subtitle">内置 HLS 播放器，支持切换两条播放线路。</p>
+              <div class="player-shell" id="player">
+                <video
+                  class="player-video"
+                  data-player
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../21.jpg"
+                  data-streams='["https://customer-7t103rn8rocxo5v6.cloudflarestream.com/0ba4f146b0e6ea192526706f495d460f/manifest/video.m3u8", "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/31227358d3c181b7168e28ad248cfb4e/manifest/video.m3u8"]'
+                ></video>
+                <div class="player-controls">
+                  <button class="control-btn" type="button" data-stream-btn="0">线路 1</button>
+                  <button class="control-btn" type="button" data-stream-btn="1">线路 2</button>
+                  <a class="control-btn" href="../search.html?q=逃离今日计划">搜索更多推荐</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">影片评论</h2>
+                <div class="rich-text" style="margin-top:14px"><p>打工人的精神状态写照。影片前半段的压抑感让人窒息,后半段的集体反抗爽快至极。它将“上班如上坟”的隐喻变成了恐怖喜剧,结尾的烟火大会台词简直是打工人嘴替。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">标签</h2>
+                <div class="tags-cloud" style="margin-top:14px">
+                  <span class="meta-tag">打工人</span><span class="meta-tag">反内卷</span><span class="meta-tag">时间循环</span><span class="meta-tag">荒诞</span>
+                  <span class="meta-tag">喜剧</span><span class="meta-tag">剧情</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <div class="section-head" style="margin-bottom:12px">
+                <div>
+                  <h2 class="section-title">猜你喜欢</h2>
+                  <p class="section-subtitle">根据原始相关 ID 与同地区、同年份补充生成。</p>
+                </div>
+              </div>
+              <div class="movie-grid">
+                
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0124.html">
+        <div class="movie-poster">
+          <img src="../124.jpg" alt="三个信长">
+          <div class="movie-badges">
+            <span class="movie-badge">2026</span>
+            <span class="movie-badge">#0124</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">三个信长</h3>
+          <div class="movie-meta">
+            <span>日本</span>
+            <span>剧集</span>
+            <span>历史 · 科幻</span>
+          </div>
+          <p class="movie-desc">来自三个不同时空的“织田信长”被传送到同一个战国时代,谁才是真正的霸主?</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 676</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0205.html">
+        <div class="movie-poster">
+          <img src="../55.jpg" alt="玉米田的小孩7">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0205</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">玉米田的小孩7</h3>
+          <div class="movie-meta">
+            <span>美国</span>
+            <span>电影</span>
+            <span>恐怖 · 悬疑</span>
+          </div>
+          <p class="movie-desc">一群邪教小孩在玉米地里召唤出初代恶魔,却发现恶魔想吃的是他们。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 444</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0316.html">
+        <div class="movie-poster">
+          <img src="../16.jpg" alt="恋爱辩法">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0316</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">恋爱辩法</h3>
+          <div class="movie-meta">
+            <span>台湾</span>
+            <span>电视剧</span>
+            <span>喜剧 · 爱情</span>
+          </div>
+          <p class="movie-desc">两名顶尖离婚律师被迫合作打一场官司,却在这个过程中发现了彼此婚姻法的漏洞——和自己的心。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 820</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0408.html">
+        <div class="movie-poster">
+          <img src="../108.jpg" alt="流浪汉世界杯">
+          <div class="movie-badges">
+            <span class="movie-badge">2019</span>
+            <span class="movie-badge">#0408</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">流浪汉世界杯</h3>
+          <div class="movie-meta">
+            <span>香港</span>
+            <span>电影</span>
+            <span>运动 · 励志</span>
+          </div>
+          <p class="movie-desc">过气足球教练为还赌债,不得不在三个月内把一群醉鬼和精神病人训练成能参加“流浪汉世界杯”的球队。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 433</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0457.html">
+        <div class="movie-poster">
+          <img src="../7.jpg" alt="镭射特攻">
+          <div class="movie-badges">
+            <span class="movie-badge">2025</span>
+            <span class="movie-badge">#0457</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">镭射特攻</h3>
+          <div class="movie-meta">
+            <span>美国</span>
+            <span>电影</span>
+            <span>动作 · 科幻</span>
+          </div>
+          <p class="movie-desc">2050年,一支使用镭射武器的退役特种兵被重新召集,他们的任务是攻入AI核心,却发现敌人是一个“想成为人类”的量子幽灵。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 905</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0020.html">
+        <div class="movie-poster">
+          <img src="../20.jpg" alt="精灵鼠小弟2">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0020</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">精灵鼠小弟2</h3>
+          <div class="movie-meta">
+            <span>美国</span>
+            <span>动画电影</span>
+            <span>喜剧 · 家庭</span>
+          </div>
+          <p class="movie-desc">斯图亚特发现自己在世界上还有另一窝“鼠兄弟”——他们是中央公园下水道的野鼠帮。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 593</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© 影库 · 2000部纯静态影片档案</div>
+        <div>静态生成 · SEO友好 · 可浏览 · 可播放</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

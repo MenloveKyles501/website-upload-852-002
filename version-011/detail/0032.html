@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>让我来唱 · 影库</title>
+  <meta name="description" content="一位患阿兹海默症的退休词作家,只记得自己写过的歌词,女儿用卡拉OK帮她找回了“我是谁”。">
+  <meta name="keywords" content="影库, 纯静态电影网站, 电影, 影片, HLS播放器">
+  <meta name="theme-color" content="#060b17">
+  <link rel="icon" href="../favicon.svg">
+  <link rel="stylesheet" href="../assets/original.css">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../assets/app.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "让我来唱", "description": "一位患阿兹海默症的退休词作家,只记得自己写过的歌词,女儿用卡拉OK帮她找回了“我是谁”。", "datePublished": "2024", "genre": ["剧情", "音乐", "家庭"], "countryOfOrigin": "中国香港", "image": "32.jpg"}</script>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html" aria-label="影库 首页">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>影库</strong>
+            <span>2000部纯静态影片档案</span>
+          </span>
+        </a>
+        <button class="mobile-toggle" data-nav-toggle aria-expanded="false" aria-label="打开导航">☰</button>
+        <nav class="site-nav" id="site-nav">
+          <a class="nav-link" href="../index.html">首页</a>
+<a class="nav-link active" href="../all/page-1.html">全部影片</a>
+<a class="nav-link" href="../ranking.html">排行榜</a>
+<a class="nav-link" href="../search.html">搜索</a>
+        </nav>
+      </div>
+    </header>
+    
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="../index.html">首页</a>
+          <span>›</span>
+          <a href="../all/page-1.html">全部影片</a>
+          <span>›</span>
+          <span>让我来唱</span>
+        </div>
+
+        <div class="detail-hero">
+          <div class="detail-poster">
+            <img src="../32.jpg" alt="让我来唱">
+          </div>
+
+          <div class="detail-main">
+            <div class="detail-card">
+              <h1 class="detail-title">让我来唱</h1>
+              <p class="detail-subtitle">一位患阿兹海默症的退休词作家,只记得自己写过的歌词,女儿用卡拉OK帮她找回了“我是谁”。</p>
+              <div class="detail-meta">
+                <span class="tag">中国香港</span>
+                <span class="tag">电影</span>
+                <span class="tag">2024</span>
+                <span class="tag">剧情/音乐/家庭</span>
+                <span class="tag"># 0032</span>
+              </div>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#player">立即播放</a>
+                <a class="btn btn-secondary" href="../search.html?q=让我来唱">搜索同类影片</a>
+                <a class="btn btn-secondary" href="../ranking.html">查看排行榜</a>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">剧情简介</h2>
+                <div class="rich-text" style="margin-top:14px"><p>殿堂级词人林若诗晚年患上阿兹海默症,她忘记了丈夫、女儿,甚至忘记自己吃过饭,但只要收音机响起她填词的粤语金曲,她就能一字不差地唱出来。女儿阿wing是普通的会计师,对母亲的光辉岁月不感兴趣,甚至讨厌那些老歌。为了延缓母亲病情,阿wing买了一台卡拉OK机,把母亲写过的几百首歌词做成字幕视频,每天陪她唱。在唱歌的过程中,阿wing通过歌词背后的故事,重新认识了母亲:原来那首失恋情歌是写给初恋的,那首励志歌是写给流产的孩子的。阿wing在陪唱中修复了与母亲的隔阂,并在母亲最后清醒的时刻,听母亲哼了一首从未发表过的摇篮曲,那正是阿wing的出生礼。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">影片信息</h2>
+                <div class="info-list">
+                  <div class="info-row"><strong>地区</strong><span>中国香港</span></div>
+                  <div class="info-row"><strong>类型</strong><span>电影</span></div>
+                  <div class="info-row"><strong>年份</strong><span>2024</span></div>
+                  <div class="info-row"><strong>题材</strong><span>剧情/音乐/家庭</span></div>
+                  <div class="info-row"><strong>标签</strong><span>粤语歌 / 失智症 / 家庭录像 / 录音带</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <h2 class="section-title">观影播放</h2>
+              <p class="section-subtitle">内置 HLS 播放器，支持切换两条播放线路。</p>
+              <div class="player-shell" id="player">
+                <video
+                  class="player-video"
+                  data-player
+                  controls
+                  playsinline
+                  preload="metadata"
+                  poster="../32.jpg"
+                  data-streams='["https://customer-7t103rn8rocxo5v6.cloudflarestream.com/af3d3f3b4940cee04efcd8ff2c9eef0a/manifest/video.m3u8", "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/e398cb38b257828eeedbcaa0ae2856da/manifest/video.m3u8"]'
+                ></video>
+                <div class="player-controls">
+                  <button class="control-btn" type="button" data-stream-btn="0">线路 1</button>
+                  <button class="control-btn" type="button" data-stream-btn="1">线路 2</button>
+                  <a class="control-btn" href="../search.html?q=让我来唱">搜索更多推荐</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-grid">
+              <div class="detail-card">
+                <h2 class="section-title">影片评论</h2>
+                <div class="rich-text" style="margin-top:14px"><p>每一个音符都是催泪弹。卡拉OK的形式非常新颖,让观众仿佛身处KTV包厢,极具代入感。对阿兹海默症的刻画不是猎奇,而是充满温情。最后那段摇篮曲响起时,你会发现那些老歌真的连接了血脉。</p></div>
+              </div>
+              <div class="detail-card">
+                <h2 class="section-title">标签</h2>
+                <div class="tags-cloud" style="margin-top:14px">
+                  <span class="meta-tag">粤语歌</span><span class="meta-tag">失智症</span><span class="meta-tag">家庭录像</span><span class="meta-tag">录音带</span><span class="meta-tag">黄伟文</span>
+                  <span class="meta-tag">剧情</span><span class="meta-tag">音乐</span><span class="meta-tag">家庭</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-card">
+              <div class="section-head" style="margin-bottom:12px">
+                <div>
+                  <h2 class="section-title">猜你喜欢</h2>
+                  <p class="section-subtitle">根据原始相关 ID 与同地区、同年份补充生成。</p>
+                </div>
+              </div>
+              <div class="movie-grid">
+                
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0003.html">
+        <div class="movie-poster">
+          <img src="../3.jpg" alt="乔治和龙">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0003</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">乔治和龙</h3>
+          <div class="movie-meta">
+            <span>英国</span>
+            <span>电影</span>
+            <span>奇幻 · 冒险</span>
+          </div>
+          <p class="movie-desc">见习骑士乔治发现,他要屠的龙不仅会说话,还会背《大宪章》,而且坚持要求“谈判解决领土争端”。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 1024</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0007.html">
+        <div class="movie-poster">
+          <img src="../7.jpg" alt="天山紧急出动">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0007</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">天山紧急出动</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>电影</span>
+            <span>动作 · 灾难</span>
+          </div>
+          <p class="movie-desc">一场雪崩将科考队困在天山裂缝中,民间救援队必须在黄金72小时内与死神赛跑。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 704</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0011.html">
+        <div class="movie-poster">
+          <img src="../11.jpg" alt="豁口">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0011</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">豁口</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>电影</span>
+            <span>悬疑 · 犯罪</span>
+          </div>
+          <p class="movie-desc">一个男人在自家地窖里囚禁了仇人十年,直到某天他发现,地窖里其实关着的是一个和他有相同记忆的陌生人。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 632</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0012.html">
+        <div class="movie-poster">
+          <img src="../12.jpg" alt="尘世笑谈">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0012</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">尘世笑谈</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>电视剧</span>
+            <span>剧情 · 年代</span>
+          </div>
+          <p class="movie-desc">民国时期,北京城一个四合院里住着三教九流的租客,他们的日常笑料百出,却在日军进城那天集体沉默了。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 76</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0013.html">
+        <div class="movie-poster">
+          <img src="../13.jpg" alt="恐怖休息站2">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0013</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">恐怖休息站2</h3>
+          <div class="movie-meta">
+            <span>中国台湾</span>
+            <span>电影</span>
+            <span>惊悚 · 恐怖</span>
+          </div>
+          <p class="movie-desc">废弃休息站频发失踪案,过路司机发现每具尸体嘴里都含着一枚生锈的车票。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 850</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card">
+      <a class="card-link" href="../detail/0014.html">
+        <div class="movie-poster">
+          <img src="../14.jpg" alt="象牙山的好人们">
+          <div class="movie-badges">
+            <span class="movie-badge">2024</span>
+            <span class="movie-badge">#0014</span>
+          </div>
+        </div>
+        <div class="movie-body">
+          <h3 class="movie-title">象牙山的好人们</h3>
+          <div class="movie-meta">
+            <span>中国大陆</span>
+            <span>剧集</span>
+            <span>喜剧 · 剧情</span>
+          </div>
+          <p class="movie-desc">为了竞选“象牙山十大好人”,村里每个人的“好事”都变得不那么单纯了。</p>
+          <div class="movie-actions">
+            <span class="movie-action">立即查看</span>
+            <span class="movie-action">热度 837</span>
+          </div>
+        </div>
+      </a>
+    </article>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© 影库 · 2000部纯静态影片档案</div>
+        <div>静态生成 · SEO友好 · 可浏览 · 可播放</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
